@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/themeprovider";
+import React from "react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -13,8 +13,6 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
-
 
 export default function RootLayout({
   children,
@@ -33,7 +31,6 @@ export default function RootLayout({
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange>
-        <Navbar/>
         {children}
           </ThemeProvider>
       </body>
