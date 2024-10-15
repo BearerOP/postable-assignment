@@ -2,7 +2,7 @@ import React from "react";
 import HeroSvg from "./hero-svg";
 import { ClipboardPasteIcon } from "lucide-react";
 
-export default function () {
+export default function Hero () {
     return (
         <>
             <div className="h-20" />
