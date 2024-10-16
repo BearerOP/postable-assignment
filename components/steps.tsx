@@ -24,12 +24,12 @@ export default function Steps() {
                   Step 1
                 </span>
                 <h1 className="mb-3 text-sm font-medium text-neutral-800 sm:text-md md:mb-5 md:text-lg">
-                  Copy tweet's link
+                  Copy tweet&#39;s link
                 </h1>
                 <p className="text-xs text-neutral-500 sm:text-sm">
-                  On X/Twitter, click the share icon at the bottom-right of the
-                  tweet and select 'Copy Link.' Then, paste the link into the
-                  box above.
+                On X/Twitter, click the share icon at the bottom-right of the tweet and select &#39;Copy Link.&#39; Then, paste the link into the box above.
+
+
                 </p>
               </div>
             </CardBody>

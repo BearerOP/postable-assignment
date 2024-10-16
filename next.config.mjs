@@ -4,6 +4,4 @@ const nextConfig = {
         domains: ['images.unsplash.com','res.cloudinary.com'],
       },
 };
-
-
 export default nextConfig;
