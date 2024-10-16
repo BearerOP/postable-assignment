@@ -1,8 +1,10 @@
 import React from "react";
 import HeroSvg from "./hero-svg";
 import { ClipboardPasteIcon } from "lucide-react";
+import Sample from "./sample";
+import SocialTabs from "./social-tabs";
 
-export default function Hero () {
+export default function Hero() {
     return (
         <>
             <div className="h-20" />
@@ -57,8 +59,8 @@ export default function Hero () {
                             className="mt-0.5 text-neutral-400"
                         >
                             <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
+                                fillRule="evenodd"
+                                clipRule="evenodd"
                                 d="M2 5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H16C16.5304 3 17.0391 3.21071 17.4142 3.58579C17.7893 3.96086 18 4.46957 18 5V13C18 13.5304 17.7893 14.0391 17.4142 14.4142C17.0391 14.7893 16.5304 15 16 15H12.78L12.7865 16L14.4493 16.83C14.658 16.9343 14.7902 17.1472 14.791 17.3805C14.7921 17.7223 14.5153 18 14.1735 18H5.82649C5.48468 18 5.2079 17.7223 5.20901 17.3805C5.20977 17.1472 5.34196 16.9343 5.5507 16.83L7.2135 16L7.22 15H4C3.46957 15 2.96086 14.7893 2.58579 14.4142C2.21071 14.0391 2 13.5304 2 13V5ZM4 13V5H16V13H4Z"
                                 fill="currentColor"
                             ></path>
@@ -74,6 +76,10 @@ export default function Hero () {
                         No signup, no credit card, no crap!
                     </p>
                 </div>
+                <Sample />
+            </div>
+            <div className="flex justify-center ">
+                <SocialTabs />
             </div>
         </>
     );
