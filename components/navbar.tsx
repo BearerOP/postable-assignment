@@ -10,7 +10,7 @@ export default function Navbar() {
   const [showInput, setShowInput] = useState(false);
 
   const handleScroll = () => {
-    setShowInput(window.scrollY > window.innerHeight * 0.02);
+    setShowInput(window.scrollY > window.outerHeight * .7 );
   };
 
   useEffect(() => {

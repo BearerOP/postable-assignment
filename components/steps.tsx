@@ -5,7 +5,7 @@ import { CardBody, CardContainer } from "@/components/ui/3d-card";
 export default function Steps() {
   return (
     <>
-      <div className="mx-auto flex h-fit w-full max-w-6xl flex-col mt-8 gap-3.5 py-8 sm:gap-4 sm:py-12 md:gap-6 md:py-16 lg:gap-8 lg:py-24">
+      <div className="mx-auto flex min-h-screen h-fit w-full max-w-6xl flex-col mt-16 gap-3.5 py-8 sm:gap-4 sm:py-12 md:gap-6 md:py-16 lg:gap-8 lg:py-24">
         <h3 className="px-4 text-xl font-medium tracking-[-0.2px] text-neutral-800 sm:text-2xl md:text-[32px] md:leading-[42px] md:tracking-[-1px]">
           How it works?
         </h3>
