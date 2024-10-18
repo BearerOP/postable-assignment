@@ -1,4 +1,5 @@
 import Carousel from "@/components/carousel";
+import Faq from "@/components/faq";
 import Hero from "@/components/hero";
 import Navtabs from "@/components/nav-tabs";
 import Navbar from "@/components/navbar";
@@ -9,7 +10,8 @@ export default function Home() {
     <Hero/>
     <Carousel/>
     <Navtabs/>
-    
+    <Faq/>
+
     </>
   );
 }
