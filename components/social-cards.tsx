@@ -29,7 +29,7 @@ export default function SocialCards() {
 
     const Card = ({ title, icon, bgColor, bgImage, index }: { title: string; icon: JSX.Element; bgColor: string; bgImage: string; index: number }) => (
         <motion.div
-            className="h-[20rem] sm:h-[26rem] md:h-[30rem] lg:h-[34rem] w-full sm:w-[30rem] md:w-[36rem] lg:w-[44rem] relative overflow-hidden mt-[5rem] sm:mt-[7rem] md:mt-[8rem] lg:mt-[10rem]"
+            className="h-[20rem] z-10 sm:h-[26rem] md:h-[30rem] lg:h-[34rem] w-full sm:w-[30rem] md:w-[36rem] lg:w-[44rem] relative overflow-hidden mt-[5rem] sm:mt-[7rem] md:mt-[8rem] lg:mt-[10rem]"
             variants={cardVariants}
             custom={index}
             style={{ 
@@ -52,7 +52,7 @@ export default function SocialCards() {
     );
 
     return (
-        <div className="relative">
+        <div className="relative z-10">
             <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent pointer-events-none z-10" />
             <div ref={containerRef} className="cards overflow-x-hidden overflow-y-hidden">
                 <motion.div 

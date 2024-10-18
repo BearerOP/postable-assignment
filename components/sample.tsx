@@ -9,9 +9,9 @@ export default function Sample() {
 <div className="flex flex-col gap-2 rounded-[20px] bg-white p-3"><header className="pointer-events-none flex select-none items-center gap-1.5"><Image
   src="https://pbs.twimg.com/profile_images/1825057263876243456/jRiAsgd__400x400.jpg"
   alt={`Profile Image`}
-  width={400}   // Set an appropriate width
-  height={400}  // Set an appropriate height
-  className="w-full rounded-lg object-cover"
+  width={40}   // Set an appropriate width
+  height={40}  // Set an appropriate height
+  className="w-12 rounded-lg object-cover"
 />
 <div className="flex flex-1 gap-1 text-md font-bold leading-none text-black">
     <div className="flex flex-col"><div className="flex items-center gap-1">Postable<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-badge-check inline-block h-5 w-5 stroke-white fill-blue-500"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path><path d="m9 12 2 2 4-4"></path></svg></div><div className="text-xs font-medium text-muted-foreground">@postable_app</div></div></div><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[22px] text-[#D5D4D2]"><path fillRule="evenodd" clipRule="evenodd" d="M7.04912 2.75H2.26894L7.8984 10.7662L2.19727 17.25H4.09789L8.74145 11.9674L12.4509 17.25H16.75V17H16.75L16.75 17V16.75H16.5745L11.0833 8.92875L11.271 9.0938L16.8486 2.75H14.9481L10.5551 7.74319L7.04912 2.75ZM4.60908 4.16111H6.19882L14.5743 15.8837H13.1627V16.1336L4.60908 4.16111Z" fill="currentColor"></path></svg></header><p className="text-left text-sm font-normal text-[#14171A]">Get scroll-stopping posts from your tweets with zero design experience, only with Postable.</p><div className="pointer-events-none flex h-3 select-none justify-between overflow-visible text-2xs font-medium leading-none text-muted-foreground"><time className="min-w-fit flex-shrink-0" dateTime="2024-07-29T16:12:08.000Z">9:42 PM · Jul 29, 2024</time></div></div></div></div>

@@ -60,7 +60,7 @@ export default function Hero() {
         </div>
         <Sample />
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center z-10">
         <SocialTabs />
       </div>
       <Steps/>
