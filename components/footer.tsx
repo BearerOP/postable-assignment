@@ -542,10 +542,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-1 flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-end">
                 <span className="text-xs font-medium text-white/50">
-                  © 2024 Postable. All rights reserved.
-                </span>
-                <span className="text-xs font-medium text-white/50">
-                  Made with ❤️ in 🇫🇷
+                  © 2024 Postable.
                 </span>
               </div>
             </div>

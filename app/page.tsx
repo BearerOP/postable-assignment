@@ -9,7 +9,7 @@ import Navbar from "@/components/navbar";
 export default function Home() {
   return (
     <div className="relative min-h-screen">
-      <div className="relative z-10">
+      <div className="relative z-20">
         <Navbar />
         <main className='bg-white'>
           <Hero />
